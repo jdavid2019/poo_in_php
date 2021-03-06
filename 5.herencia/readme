@@ -1,0 +1,37 @@
+Herencia -> heredar atributos y métodos de una clase padre en una clase hija
+<?php
+//Herencia
+//clase
+class Vehiculo{
+    //atributos
+    public $motor = false;
+    public $marca;
+    public $color;
+    //metodos
+    protected function estado(){
+        if($this->motor){
+            echo "El motor está encendido  <br>";
+        }else{
+            echo "El motor está apagado  <br>";
+        }
+    }
+
+    public function encenderMotor(){
+        if($this->motor){
+            echo "No es necesario, el botón ya está encendido";
+        }else{
+            echo "Ha encendido el motor con exito <br>";
+            $this->motor = true;
+        }
+    }
+}
+
+class Moto extends Vehiculo{
+    public function verEstadomoto(){
+    $this->estado();
+    }
+}
+$moto = new Moto();
+$moto->estadomoto();
+
+?> 

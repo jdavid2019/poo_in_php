@@ -1,3 +1,3 @@
 PUBLIC : //se puede acceder de cualquier lugar
 PRIVATE : // no puede verse por un objeto, no puedo acceder facilmente , la unica forma es enganchar lo que quiero a otra funcion de la misma clase de tipo publica y asi poder ser llamado con exito
-PROTECTED : // no puede verse por un objeto
+PROTECTED : // no puede verse por un objeto , pueden ser usados por las clases que esttan conteniendo esa herencia
