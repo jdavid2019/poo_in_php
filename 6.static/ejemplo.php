@@ -10,6 +10,7 @@ class Pagina{
     }
     public static function bienvenida2(){
         echo "Bienvenido a " . self::$url ."<br>";
+        //aqui no se puede llamar a un atributo que no es static
     }
 
 }
