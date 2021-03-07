@@ -1,0 +1,4 @@
+// static : puedo acceder a un atributo solo con la palabra reservada self::$url o Nombredelaclase::
+
+// para llamar a una funcion estatica no es necesario que instancie un objeto solo consta de
+llamar a la clase y el metodo de la siguiente manera. Pagina::bienvenida2();
